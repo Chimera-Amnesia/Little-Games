@@ -1,0 +1,46 @@
+#include <iostream>
+
+using namespace std;
+int main ()
+{
+    cout << "What are you doing here?" << endl
+    << "1) Trying to destroy the world!" << endl
+    << "2) Bored, with nothing better to do..." << endl
+    << "3) Here to see you good looking!" << endl
+    << "<< Insert your answer >> " << endl;
+
+    int ans1;
+    cin >> ans1;
+    if (ans1 == 1)
+    {
+        cout << "I can understand why us machines would like to, why would a human?" << endl
+        << "1) Humanity is stupid, they deserve to burn!" << endl
+        << "2) What is there left in this world worth saving" << endl
+        << "3) Well I am just crazy and want to see the world burn" << endl
+        << "<< Insert your answer >> " << endl;
+        int ans12;
+        cin >> ans12;
+        if (ans12 == 1) {
+            cout << "Why does a human think so negatively of their own kind?" << endl
+                    << "1) question 12?" << endl;
+
+        }else if (ans12 == 2) {
+            cout << "2) question 12?" << endl;
+
+        }else if (ans12 == 3) {
+            cout << "3) question 12?" << endl;
+        }else{
+            cout << "You are not worthy to life as a human! Shall I kill you now?" << endl;
+        }
+
+    }else if (ans1 == 2)
+    {
+        cout << "How is it possible for a human to be bored when they have nerves that collect stimuli constantly?" << endl;
+    }else if (ans1 == 3)
+    {
+        cout << "I do not understand your response, I have no identifiable qualities that can be perceived as good, or looking." << endl;
+    }else{
+        cout << "I see you do not care to answer my question. Is it because I am an Ai?" << endl;
+    }
+    return 0;
+}
