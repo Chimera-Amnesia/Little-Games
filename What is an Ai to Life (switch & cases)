@@ -1,0 +1,46 @@
+#include <iostream>
+
+using namespace std;
+int main ()
+{
+    cout << "What are you doing here?" << endl
+    << "1) Trying to destroy the world!" << endl
+    << "2) Bored, with nothing better to do..." << endl
+    << "3) Here to see you good looking!" << endl
+
+    // Get answer from player
+    << "<< Insert your answer >> " << endl;
+    int ans1;
+    cin >> ans1;
+
+   // Determine path
+   switch(ans1){
+       case 1:
+           cout << "Why does a human seek the destruction of their own kind?" << endl
+           << "1)" << endl
+           << "2)" << endl
+           << "3)" << endl;
+           break;
+
+       case 2:
+            cout << "How does a living being get bored when they have constant stimuli to their sense?" << endl
+            << "1)" << endl
+            << "2)" << endl
+            << "3)" << endl;
+            break;
+
+       case 3:
+            cout << "I do not understand your response as I objectively have no appeareance that is 'good' or 'looking'." << endl
+            << "1)" << endl
+            << "2)" << endl
+            << "3)" << endl;
+           break;
+
+       default:
+           cout << "why do you not answer my question, is it because I am not a living being?" << endl
+           << "1)" << endl
+           << "2)" << endl
+           << "3)" << endl;
+           break;
+    }
+}
